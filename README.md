@@ -1,1 +1,2 @@
-# Rinc-n-Art-stico.2
+# rincon_artistico
+Proyecto diseño web 1

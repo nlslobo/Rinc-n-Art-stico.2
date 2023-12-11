@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Página con contenido educativo relacionado con el arte">
+    <meta name="keywords" content="arte, rincón, animación, 3D, pintura, artistas">
+    <meta name="author" content="Grupo uno">
+    <title>Contact us</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css" rel="stylesheet">
+</head>
+<body>
+    <header id="hero" class="sombra"> 
+        <div class="container text-center">
+            <nav class="navbar navbar-expand-lg">
+                <a href="index.html" class="logo-nav">
+                    <img src="img/logo.png" alt="logo" width="30px">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link color_nav" href="galeria.html">Galería</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link color_nav" href="cursos.html">Cursos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link color_nav" href="artistas.html">Artistas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link color_nav" href="contactus.html">Contáctanos</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Dropdown link
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section id="banner"> 
+        <div class="container">
+            <h1>Contáctanos</h1>
+        </div>
+    </section>
+
+    <article class="col-lg-8 col-sm-12 centrar-form offset-lg-2">
+        <section id="datos-input">
+            <form action="contactus.html" method="post">
+                <div class="row">
+                    <article class="col-lg-6 col-sm-6 col-12 mt-3">
+                        <input type="text" name="nombre" class="form-control" placeholder="Nombre" required>
+                    </article>
+                    <article class="col-lg-6 col-sm-6 col-12 mt-3">
+                        <input type="email" name="correo" class="form-control" placeholder="Email" required>
+                    </article>
+                </div>
+                <div class="row mt-3">
+                    <article class="col-lg-12">
+                        <textarea name="mensaje" rows="8" class="form-control" placeholder="Message" required></textarea>
+                    </article>
+                </div>
+                <div class="row mt-3">
+                    <article class="col-lg-12">
+                        <button type="submit" class="btn btn-primary w-100 secundario">Enviar</button>
+                    </article>
+                </div>
+            </form>
+        </section>
+    </article>
+
+    <section class="social-media"> 
+        <div class="container">
+            <h2>Redes Sociales</h2>
+            <ul class="list-inline" id="lista-seguir">
+                <li class="list-inline-item"> <a href="#" > <i class="lab la-facebook"></i>  </a> </li>
+                <li class="list-inline-item"> <a href="#" > <i class="lab la-instagram"></i>  </a> </li>
+                <li class="list-inline-item"> <a href="#" >  <i class="lab la-youtube"></i> </a> </li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="map" class="section">
+        <div class="container">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3870.491195478826!2d-87.17683632177511!3d14.048147100000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f6fbd61f4536521%3A0x3c3af8e4d524769d!2sGreen%20Panorama%20HN!5e0!3m2!1ses-419!2shn!4v1700716766968!5m2!1ses-419!2shn" width="100%" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="container text-center">
+                <a href="/index.html">
+                    <img src="img/logo.png" alt="logo" width="30px">
+                </a>
+                <h3>Rincón Artístico</h3>
+                <ul class="list-inline" id="lista-footer">
+                    <li class="list-inline-item"> <a href="#" > <i class="lab la-facebook"></i>  </a> </li>
+                    <li class="list-inline-item"> <a href="#" > <i class="lab la-instagram"></i>  </a> </li>
+                    <li class="list-inline-item"> <a href="#" >  <i class="lab la-youtube"></i> </a> </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
